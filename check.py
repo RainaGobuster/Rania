@@ -2,7 +2,7 @@ from datetime import datetime
 import time,os,requests
 
 reference_date = datetime.strptime(datetime.now().strftime('%Y-%m-%d'), "%Y-%m-%d")
-token=""
+token="8064869953:AAGWK4neEDsd3IfRR4bBBqoWNMMpm4Ol_sQ"
 # Function to check if a given date string is after or before the reference date
 def check_date(input_date_str):
     # Convert the input date string to a datetime object
@@ -36,7 +36,7 @@ while True:
       open("list_date.txt","w").write(text)
       url = f'https://api.telegram.org/bot{token}/sendMessage'
       payload = {
-      'chat_id': 1938276557,
+      'chat_id': 6542761604,
       'text': f'''المستخدم:-{b[0]}
 تاريخ بدء الاشتراك:-{b[2]}
 تاريخ الانتهاء:-{b[3]}
