@@ -13,8 +13,8 @@ from reportlab.pdfbase import pdfmetrics
 import arabic_reshaper
 from bidi.algorithm import get_display
 import random
-admin=1938276557
-token=""
+admin=6542761604
+token="8064869953:AAGWK4neEDsd3IfRR4bBBqoWNMMpm4Ol_sQ"
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 ID,DATE,LIB,SAVE,APP_ID,API_HASH,SESSION,TOKEN,EX,EX2,DELETE= range(11)
